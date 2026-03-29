@@ -18,7 +18,9 @@ let greeting = "Hello! My name is " + firstName + " " + lastName + " and I am " 
 let fullName = firstName + " " + lastName;
 let age = (1965 - 1947);
 
-greeting = "Hello! My name is " + fullName + " and I am " + age + " years old."
+greeting = `Hello! My name is ${fullName} and I am ${age} years old.`
+//With quotations: "Hello! My name is " + fullName + " and I am " + age + " years old."
+// With backticks: `Hello! My name is ${fullName} and I am ${age} years old.`
 
 
 
